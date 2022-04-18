@@ -1,0 +1,13 @@
+<div class="container-md card" style="width: 100%;">
+    <div class="card-body">
+        <!--  
+            <img src="/src/assets/images/userAvatar.png" alt="" class="card-img-top">
+        -->
+        <h1 class="text-muted display-3">Dashboard</h1>
+        <hr>
+        <p class="card-text text-danger">Sólo funciona si estás autenticado</p>
+        <h4 class="card-title text-info">Información del usuario</h4>
+        <pre class="card-text">{{usuario | json}}</pre>
+        <button (click)="logout()" class="btn btn-primary float-end">Logout</button>
+    </div>
+    </div>
